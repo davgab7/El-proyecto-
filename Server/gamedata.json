@@ -1,0 +1,341 @@
+{
+  "settings": {
+    "roundtime": 15000
+  },
+  "strings": {
+    "prestart": "Abre http://ejemplosactuales.com en su móvil",
+    "a-prompt": "08:30 Es el quinto día de tu primera semana de trabajo. Estás conduciendo a tu trabajo. No tienes mucho tiempo, pero tienes hambre.",
+    "a-opt-comer": "Es necesario que <<comer>> algo. Vas a parar y comprar donas (doughnuts).",
+    "a-opt-estar": "Es importante que no <<estar>> tarde. No vas a comer.",
+    "a1-prompt": "9:12 Estás en tu cubículo y estás llena de donas y café.  Tu jefe viene detrás y te dice “¡Estás tarde otra vez! Debes llegar a tiempo.” Respondes, “¡Lo siento mucho! La semana próxima voy a llegar a tiempo.” “Espero que sí.”",
+    "a2-prompt": "9:00 Estás en tu cubículo. No tienes mucho energía porque no has comido nada. Tu jefe viene detrás y te dice “ ¡Buenos días! Pareces muy exhausto hoy. Necesitamos trabajadores llenos de energía.”",
+    "b-prompt": " “Pues, que es tu plan para hoy?”",
+    "b-opt-mejorar": "Tengo que hablar con Pedro. Insisto en que <<mejorar>> sus algoritmos.",
+    "b-opt-pasar": "Tengo que quedarme aquí y ejecutar pruebas (run tests) en mis programas. Espero que <<pasar>> todos.",
+    "b-opt-dar": "Quisiera hablarte.  Quiero que se me <<dar>> un aumento de sueldo.",
+    "c-prompt": "11:00 Luego, estás en el cubículo del Pedro. Le dices, “Pedro, lo siento por molestarte, pero creo que hay fallos en tu código. Tus algoritmos son muy ineficientes.” Te dice, “A mi me funciona bien. Estás seguro que no es tu trabajo que tiene errores?” Sabes que todos los errores empezaron después del commit final de Pedro. ¿Pero, cómo le contestas?",
+    "d-prompt": "13:00 Tu programa no está pasando las pruebas y tu estado trabajando por horas y horas. Hay unos problemas con la lógica en la programa. ¿Qué vas a hacer?",
+    "e-prompt": "13:00 Estás en la oficina de tu jefe. Le he perdido un aumento, pero lo ha rechazado. ¿Cómo vas a continuar la conversación?",
+    "c-opt-poder": "No quieres argumentar porque no quieres crear conflicto. Piensas que posiblemente tu <<poder>> fijar el código del Pedro sin su ayuda.",
+    "c-opt-ser": "No dudo que <<ser>> su responsabilidad a fijar los errores en su código. Vas a decirle todos los problemas que has visto en su trabajo.",
+    "c1-prompt": "Regresas a tu cubículo para trabajar en el código de Pedro, pero hay tantas fallos que no puedes corregir todos. En su código el recursión no funciona. Se retornan valores incorrectos. Además, se toma una eternidad para compilar y hay muchas filtraciones de memoria. Aún, sus atributos están definidos incorrectamente. Por todo eso, no logras (achieve) casi nada y estás desanimado.",
+    "c2-prompt": "“Pedro, el recursión en tu código aquí no funciona. Se retornan valores incorrectos. Además, se toma una eternidad para compilar y hay muchas filtraciones de memoria. Aún, tus atributos están definidos incorrectamente. ”   Pero, mientras que hablan a Pedro, no ves que tu jefe ha venido detrás otra vez. Él dice, “Oye, ¿porque estás tan agitado? ¿No sabes que estámos un equipo? No debemos argumentar sino ayudarnos.” ¡Aye! Va a ser un día que dura mucho tiempo…….",
+    "d-opt-poder": "Continúas a trabajar. Piensas que <<poder>> fijarlo eventualmente, y además eres un poco desconcertado, y no quieres pedir ayuda",
+    "d-opt-tener": "Crees que tu colega <<tener>> mucha experiencia con estas tipos de program. Vas a pedirle ayuda.",
+    "d1-prompt": "Continuas a trabajar con tu programa sin éxito cuando tu jefe viene detrás otra vez. “¿Que has logrado hoy?¨te pregunta. Pero debes admitir que no has realizado nada. Tu jefe parece un poco decepcionado (disappointed) en ti. No es bueno, esperabas que te daría un aumento...",
+    "d2-prompt": "Visitas tú colega y fija los problemas muy rápida. Te embroma, “¿Que se enseña en las escuelas hoy en día?. Este te avergüenza. Tú colega te dice que es tu semana primera. Nadie es perfecto, y habrá momentos cuando necesitas ayuda. Hablas y trabajas con tu colega por otra hora.",
+    "e-opt-merecer": "Estás seguro que <<merecer>> un aumento. Vas a seguir pidiendoselo, explicándole a tu jefe todos las razones por las cual debe darte un aumento.",
+    "e-opt-ir": "Es obvio que no <<ir>> a recibir un aumento. No quieres seguir argumentando, posiblemente vas a molestar al jefe, que nunca es un buena idea.",
+    "e1-prompt": "Dices, “Escuchame. No hay nadie aquí en la empresa que hace lo que hago. Comprendo la criptología, escribo programas en cuatro lenguas, y puedo crear compiladores en mi sueño. Estoy indispensable, y por eso es muy razonable que se me paga más.” Pero tu jefe te responde, “Claro, todos nuestros empleados son muy listos y capaces como ti. Cada miembro de nuestra equipo es indispensable si entiende como ser parte de un equipo. Pero lo obvio es que este no entiendes. Lo siento, pero estás despedida.",
+    "e2-prompt": "¡Que pena! No tienes bastante valor a obtener lo que mereces. Regresas a tu cubículo. No puedes enfocar en tu trabajo porque estás pensando en lo que debería haber dicho a tu jefe, y en la diferencia entre lo que eres pagado y lo que debes ser pagado.",
+    "end-other-prompt": "17:10 Caminas por el estacionamiento de tu empresa.",
+    "end-e1-prompt": "5 minutes después Caminas por el estacionamiento de tu ex-empresa.",
+    "end-prompt": "Estás muy cansado porque ha sido un día muy difícil. Entras al carro. ¡Pero lo que no viste es que hay un gran oso en el asiento pasajero (passenger seat)! ¿Que haces?",
+    "end-opt-escaparse": "Dudas que <<escaparse>> el oso. Lo vas a luchar.",
+    "end-opt-ganar": "Dudas que <<ganar>> si luchas el oso. Vas a correr.",
+    "end-opt-ser": "Sabes que típicamente no hay osos en la ciudad. No crees que <<ser>> un oso verdadero.",
+    "vend-prompt": " ¡Que mal! El oso te come por entero. ¡Que tienes mejor suerte la próxima vez!"
+  },
+  "rounds": {
+    "start": {
+      "prompt": "[prestart]",
+      "next": "a"
+    },
+    "a": {
+      "prompt": "[a-prompt]",
+      "opts": [
+        {
+          "text": "[a-opt-comer]",
+          "next": "a-comer"
+        },
+        {
+          "text": "[a-opt-estar]",
+          "next": "a-estar"
+        }
+      ]
+    },
+    "a-comer": {
+      "prompt": "[a-opt-comer]",
+      "next": "a1-b",
+      "opts": [
+        "Comas",
+        "Comes",
+        "Comiendo",
+        "Comería"
+      ]
+    },
+    "a-estar": {
+      "prompt": "[a-opt-estar]",
+      "next": "a2-b",
+      "opts": [
+        "estés",
+        "estás",
+        "estar",
+        "estando"
+      ]
+    },
+    "a1-b": {
+      "prompt": "[a1-prompt][b-prompt]",
+      "opts": [
+        {
+          "text": "[b-opt-mejorar]",
+          "next": "b-mejorar"
+        },
+        {
+          "text": "[b-opt-pasar]",
+          "next": "b-pasar"
+        },
+        {
+          "text": "[b-opt-dar]",
+          "next": "b-dar"
+        }
+      ]
+    },
+    "a2-b": {
+      "prompt": "[a2-prompt][b-prompt]",
+      "opts": [
+        {
+          "text": "[b-opt-mejorar]",
+          "next": "b-mejorar"
+        },
+        {
+          "text": "[b-opt-pasar]",
+          "next": "b-pasar"
+        },
+        {
+          "text": "[b-opt-dar]",
+          "next": "b-dar"
+        }
+      ]
+    },
+    "b-mejorar": {
+      "prompt": "[b-opt-mejorar]",
+      "next": "b1-c",
+      "opts": [
+        "mejore",
+        "mejora",
+        "mejoraría",
+        "mejorará"
+      ]
+    },
+    "b-pasar": {
+      "prompt": "[b-opt-pasar]",
+      "next": "b2-d",
+      "opts": [
+        "pasen",
+        "pasaren",
+        "pasando",
+        "pasarian"
+      ]
+    },
+    "b-dar": {
+      "prompt": "[b-opt-dar]",
+      "next": "b3-e",
+      "opts": [
+        "dé",
+        "di",
+        "diera",
+        "den"
+      ]
+    },
+    "b1-c": {
+      "prompt": "[c-prompt]",
+      "opts": [
+        {
+          "text": "[c-opt-poder]",
+          "next": "c-poder"
+        },
+        {
+          "text": "[c-opt-ser]",
+          "next": "c-ser"
+        }
+      ]
+    },
+    "c-poder": {
+      "prompt": "[c-opt-poder]",
+      "next": "c1",
+      "opts": [
+        "puedes",
+        "pudiera",
+        "puedas",
+        "podido"
+      ]
+    },
+    "c-ser": {
+      "prompt": "[c-opt-ser]",
+      "next": "c2",
+      "opts": [
+        "es",
+        "era",
+        "eres",
+        "haya sido"
+      ]
+    },
+    "c1": {
+      "prompt": "[c1-prompt]",
+      "next": "end-other"
+    },
+    "c2": {
+      "prompt": "[c2-prompt]",
+      "next": "end-other"
+    },
+    "b2-d": {
+      "prompt": "[d-prompt]",
+      "opts": [
+        {
+          "text": "[d-opt-poder]",
+          "next": "d-poder"
+        },
+        {
+          "text": "[d-opt-tener]",
+          "next": "d-tener"
+        }
+      ]
+    },
+    "d-poder": {
+      "prompt": "[d-opt-poder]",
+      "next": "d1",
+      "opts": [
+        "puedes",
+        "pudieras podido",
+        "podrías",
+        "puedas"
+      ]
+    },
+    "d-tener": {
+      "prompt": "[d-opt-tener]",
+      "next": "d2",
+      "opts": [
+        "tiene",
+        "tuviera",
+        "tuviere",
+        "tenieniego"
+      ]
+    },
+    "d1": {
+      "prompt": "[d1-prompt]",
+      "next": "end-other"
+    },
+    "d2": {
+      "prompt": "[d2-prompt]",
+      "next": "end-other"
+    },
+    "b3-e": {
+      "prompt": "[e-prompt]",
+      "opts": [
+        {
+          "text": "[e-opt-merecer]",
+          "next": "e-merecer"
+        },
+        {
+          "text": "[e-opt-ir]",
+          "next": "e-ir"
+        }
+      ]
+    },
+    "e-merecer": {
+      "prompt": "[e-opt-merecer]",
+      "next": "e1",
+      "opts": [
+        "mereces",
+        "merezco",
+        "mereciste",
+        "habias merecido"
+      ]
+    },
+    "e-ir": {
+      "prompt": "[e-opt-ir]",
+      "next": "e2",
+      "opts": [
+        "vas",
+        "vayas",
+        "irías",
+        "vabas"
+      ]
+    },
+    "e1": {
+      "prompt": "[e1-prompt]",
+      "next": "end-e1"
+    },
+    "e2": {
+      "prompt": "[e2-prompt]",
+      "next": "end-other"
+    },
+    "end-e1": {
+      "prompt": "[end-e1-prompt][end-prompt]",
+      "opts": [
+        {
+          "text": "[end-opt-escaparse]",
+          "next": "end-escaparse"
+        },
+        {
+          "text": "[end-opt-ganar]",
+          "next": "end-ganar"
+        },
+        {
+          "text": "[end-opt-ser]",
+          "next": "end-ser"
+        }
+      ]
+    },
+    "end-other": {
+      "prompt": "[end-other-prompt][end-prompt]",
+      "opts": [
+        {
+          "text": "[end-opt-escaparse]",
+          "next": "end-escaparse"
+        },
+        {
+          "text": "[end-opt-ganar]",
+          "next": "end-ganar"
+        },
+        {
+          "text": "[end-opt-ser]",
+          "next": "end-ser"
+        }
+      ]
+    },
+    "end-escaparse": {
+      "prompt": "[end-opt-escaparse]",
+      "next": "vend-1",
+      "opts": [
+        "te escapes",
+        "te escaparás",
+        "te hayas escapado",
+        "te habrías escapado"
+      ]
+    },
+    "end-ganar": {
+      "prompt": "[end-opt-ganar]",
+      "next": "vend-2",
+      "opts": [
+        "ganes",
+        "ganarás",
+        "ganas",
+        "vas a ganar"
+      ]
+    },
+    "end-ser": {
+      "prompt": "[end-opt-ser]",
+      "next": "vend-3",
+      "opts": [
+        "sea",
+        "estás",
+        "fuera",
+        "hubiere sido"
+      ]
+    },
+    "vend-1": {
+      "prompt": "¡Tonto! (silly!) Osos son demasiado fuerte para luchar.[vend-prompt]"
+    },
+    "vend-2": {
+      "prompt": "Corres, pero el oso te persigue. Estás demasiado cansado  y no puedes escaparte.[vend-prompt]"
+    },
+    "vend-3": {
+      "prompt": "Desafortunadamente, sí es un oso verdadero.[vend-prompt]"
+    },
+    "error": {
+      "prompt": "Fin"
+    }
+  }
+}

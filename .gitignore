@@ -2,6 +2,3 @@
 node_modules/
 dist/
 .idea/
-public/
-e2e/
-localpublic/
